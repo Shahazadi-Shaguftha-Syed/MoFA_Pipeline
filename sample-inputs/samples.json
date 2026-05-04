@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sample-1",
+    "label": "Tech Review - Full Pipeline",
+    "agents": ["Extractor", "Classifier", "Summarizer"],
+    "input": "MoFA is an excellent and powerful framework for building modular AI agents. It provides amazing tools for orchestration and delivers outstanding performance for intelligent systems at scale."
+  },
+  {
+    "id": "sample-2",
+    "label": "Negative Feedback - Full Pipeline",
+    "agents": ["Extractor", "Classifier", "Summarizer"],
+    "input": "This software is terrible and broken. The interface is confusing and the documentation is poor. Nothing works as expected and the support team is awful and unhelpful."
+  },
+  {
+    "id": "sample-3",
+    "label": "AI Research - Extractor Only",
+    "agents": ["Extractor"],
+    "input": "Artificial intelligence and machine learning are transforming software development. Researchers are building innovative systems that can understand and generate human language with remarkable accuracy and speed."
+  },
+  {
+    "id": "sample-4",
+    "label": "Product Description - Classifier + Summarizer",
+    "agents": ["Classifier", "Summarizer"],
+    "input": "Our new cloud-native platform enables teams to deploy intelligent agents at scale. Built with Rust for blazing performance and Python for flexibility, it supports distributed workflows across multiple regions."
+  },
+  {
+    "id": "sample-5",
+    "label": "Neutral Statement - Full Pipeline",
+    "agents": ["Extractor", "Classifier", "Summarizer"],
+    "input": "The system processes data through three sequential stages. Each stage transforms the input and passes results to the next component in the pipeline. The architecture follows standard microkernel design principles."
+  }
+]
