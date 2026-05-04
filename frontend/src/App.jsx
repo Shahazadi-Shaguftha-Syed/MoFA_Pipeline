@@ -11,7 +11,7 @@ import 'reactflow/dist/style.css';
 import axios from 'axios';
 import './App.css';
 
-const API = 'http://localhost:8000';
+const API = 'https://mofa-backend-production.up.railway.app';
 
 const AGENT_COLORS = {
   Extractor:  { bg: '#0f2027', border: '#00e5ff', glow: '#00e5ff' },
